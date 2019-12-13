@@ -1,0 +1,358 @@
+<!DOCTYPE html> <!-- Déclaration pour le navigateur sur le type de document qui est ici HTML -->
+<html lang="fr-FR"> <!-- langue-PAYS -->
+    <!-- START HEAD -->
+    <head>
+        <!-- Les balises Meta permettent l'indexation dans les moteurs de recherches et autres outils d'indexation -->
+        <meta charset="UTF-8" /> <!-- L'attribut Charset indique le type d'encodage de caractères -->
+        <!-- La meta Description décrit la page et doit théoriquement être unique par page pour être prise en compte par Google -->
+        <meta name="description" content="Mathias LACROIX - Web Developer HTML-CSS-JOOMLA-SYMFONY/SYLIUS - 30 rue Gambetta 33460 Macau FRANCE - +33 666 910 649" />
+        <!-- La meta Robots est suivi par Google et autres moteurs -->
+        <meta name="robots" content="index,follow">
+		<title>
+            100% HTML-CSS Responsive Web Development Page
+        </title>
+        <!-- START DIRECTION LANG -->
+		<!-- Page francophone  -->
+		<link rel="alternate" hreflang="fr" href="/fr/index.html" />
+		<!-- La même page, en anglais  -->
+		<link rel="alternate" hreflang="en" href="/en/index.html" />
+		<!-- Et si la langue n'est pas prise en charge, la page par défaut est alors la page d'index  -->
+		<link rel="alternate" hreflang="x-default" href="/en/index.html" /> <!-- END DIRECTION LANG -->
+		<!-- L'élément Title doit refléter le contenu de la page pour un meilleur référencement -->
+        <!-- START IE -->
+        <!-- Permet la compatibilité du HTML5 avec IE -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- END IE -->
+        <!-- START VIEWPORT -->
+        <!-- La valeur Viewport permet une dimension d'affichage différente selon le navigateur -->
+        <!-- La valeur Width permet d'ajuster la page au contenu -->
+        <!-- La valeur Initial-scale d'ajuster le zoom  -->
+        <!-- La valeur Shrink-to-fit permet une compatibilité avec Safari 9 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- END VIEWPORT -->
+        <!-- START ICON -->
+        <link rel="icon" type="image/x-icon" href="#" /> <!-- Icone présente sur barre d'adresses ou de titre, favoris, onglets, ... --><!-- END ICON -->
+        <!-- START STYLES -->
+        <!-- La balise Link permet la relation entre le document actuel et un document lié par l'attribut Href dont le type est désigné par l'attribut Rel -->
+        <!-- L'attribut Integrity empêche le navigateur de charger le document s'il a été manipulé et Crossorigin sécurise la requête -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> <!-- Ensemble de polices et icones -->
+		<link rel="stylesheet" href="style.css"> <!-- Style principal -->
+	</head><!-- END HEAD -->
+    <!-- START BODY -->
+    <body class="body">  
+		<!-- START HEADER -->
+		<header class="header" id="id_header">
+			<!-- Je crée un container flexible pour le damier du Header-->
+			<div class="container container_header" id="id_container_header">
+				<!-- Je crée une ligne décomposable pour le responsive contenant des blocs non sécables et le hamburger du menu -->
+				<div class="row row_header" id="id_row_header">
+					<div class="square square1 flag lang"></div>
+					<div class="square0">
+						<div class="star"></div>
+					</div>
+					<div class="square square1"></div>
+					<div class="square square2"></div>
+					<div class="square square3"></div>
+					<div class="square square4"></div>
+					<div class="square square5"></div>
+					<div class="square square6"></div>
+					<div class="square square0"></div>
+					<div class="square square1"></div>
+					<div class="square square2"></div>
+					<div class="square square3"></div>
+					<div class="square square4"></div>
+					<div class="square square5"></div>
+					<div class="square square6"></div>
+					<!-- START MENU -->
+					<!-- Bouton Hamburger du Menu -->
+					<div class="hamburger">	
+						<a href="#id_menu">&#x2630;</a>
+					</div>
+					<div class="menu" id="id_menu">
+						<div class="container_menu" id="id_container_menu">
+							<div class="container_barres" id="id_container_barres">
+								<div class="barre"><a href="" class="barre1"></a></div>
+								<div class="barre"><a href="" class="barre2"></a></div>
+								<div class="barre"><a href="" class="barre3"></a></div>
+								<a href="#id_barres"></a>
+							</div>
+							<div class="container container_nav" id="id_container_nav">
+								<div class="container container_row_nav">
+									<div class="row row_nav1">
+										<div class="square square0">m</div>
+										<div class="square square1">a</div>
+										<div class="square square2">t</div>
+										<div class="square square3">h</div>
+										<div class="square square4">i</div>
+										<div class="square square5">a</div>
+										<div class="square square6">s</div>
+									</div>
+									<div class="row row_nav2">
+										<div class="square square6">l</div>
+										<div class="square square5">a</div>
+										<div class="square square4">c</div>
+										<div class="square square3">r</div>
+										<div class="square square2">o</div>
+										<div class="square square1">i</div>
+										<div class="square square0">x</div>
+									</div>
+									<div class="row row_nav3">
+										<div class="square square0">d</div>
+										<div class="square square1">é</div>
+										<div class="square square2">v</div>
+										<div class="square square3">e</div>
+										<div class="square square4">l</div>
+										<div class="square square5">o</div>
+										<div class="square square6">p</div>
+										<div class="square square0">p</div>
+										<div class="square square1">e</div>
+										<div class="square square2">u</div>
+										<div class="square square3">r</div>
+									</div>
+								</div>
+								<nav class="container_menu_nav" id="id_container_menu_nav">
+									<ul class="">
+										<li>
+											<a class="">2003</br>Excel</a>
+										</li>
+										<li>
+											<a class="">2004</br>Frontpage</a>
+										</li>
+										<li>
+											<a href="http://portail.lacroix.free.fr/magg" class="">2005</br>HTML</a>
+										</li>
+										<li>
+											<a href="http://portail.lacroix.free.fr/aubergedesgrandsvins" class="">2006</br>HTML</a>
+										</li>
+										<li>
+											<a class="">2006</br>Joomla</a>
+										</li>
+										<li>
+											<a href="http://portail.lacroix.free.fr/raime-oriental.fr" class="">2006</br>HTML</a>
+										</li>
+										<li>
+											<a href="http://portail.lacroix.free.fr/asso.partir/" class="">2008</br>HTML-Flash</br>Refonte</a>
+										</li>
+										<li>
+											<a href="http://portail.lacroix.free.fr/emmanuel/lessensdesmains" class="">2008</br>HTML</br>Template</a>
+										</li>
+										<li>
+											<a href="http://portail.lacroix.free.fr/anne.teyssot" class="">2008</br>HTML</br>Template</a>
+										</li>
+										<li>
+											<a href="http://portail.lacroix.free.fr/www.rythmetisse.free.fr" class="">2009</br>HTML-CSS</br>Template</a>
+										</li>
+										<li>
+											<a href="http://portail.lacroix.free.fr/www.voiturettes-sans-permis.fr" class="">2010</br>HTML-CSS</br>Template</a>
+										</li>
+										<li>
+											<a href="http://www.neelavanee.free.fr" class="">2010</br>HTML-CSS</br>Template</a>
+										</li>
+										<li>
+											<a href="http://www.laboulange.free.fr" class="">2011</br>HTML-CSS</br>Template</a>
+										</li>
+										<li>
+											<a href="http://portail.lacroix.free.fr/vitrail_concept/site5_" class="">2011</br>HTML-CSS-Flash</br>Template</a>
+										</li>
+										<li>
+											<a href="https://www.mathias-lacroix.fr" class="">2014</br>Joomla</br>Template</a>
+										</li>
+										<li>
+											<a href="http://www.madeinethiopia.info/index.php/fr/" class="">2015</br>Joomla</br>Template</a>
+										</li>
+										<li>
+											<a href="https://www.madeinabyssinia.com" class="">2016</br>Joomla</br>Template</a>
+										</li>
+										<li>
+											<a class="">2018</br>Calc</a>
+										</li>
+										<li>
+											<a href="http://www.mathiaslacroix.me" class="">2019</br>HTML-CSS</a>
+										</li>
+										<li>
+											<a href="http://www.mathiaslacroix.com" class="">2020</br>Joomla</a>
+										</li>
+										<li>
+											<a class="">2020</br>Symfony</a>
+										</li>
+										<li>
+											<a class="">2020</br>Sylius</a>
+										</li>
+										<li>
+											<a href="https://www.kifequin.com" class="">2020</br>HTML-CSS</br>Template</a>
+										</li>
+									</ul>
+								</nav>
+								<div class="container_row_nav_footer" id="id_row_nav_footer">
+									<div class="container">
+										<a clas="a" href="https://www.mathias-lacroix.fr">2019 - Mathias Lacroix</a>
+									
+										<!-- <a clas="a" href="https://mathiaslacroix.com">Développeur</a> -->
+									
+										<a clas="a" href="https://github.com/mathiaslacroix">Github</a>
+									
+										<a clas="a" href="http://www.mathias-lacroix.fr/index.php/contact">Contacts</a>
+									</div>
+								</div> <!-- Fin de ligne du Footer du Menu -->
+							</div>						
+						</div>
+					</div> <!-- END MENU -->
+				</div> <!-- Fin de ligne du Header -->
+			</div><!-- Fin du container du Header -->
+		</header> <!-- END HEADER -->
+		<!-- START MAIN -->
+		<main class="main" id="id_main">
+			<!-- Je crée un container flexible pour le damier du principal -->
+			<div class="container container_main" id="id_container_main">
+				<!-- Je crée des lignes décomposables pour le responsive contenant des blocs non sécables -->
+				<div class="row row_1" id="id_row_1">
+					<div class="square square1"></div>
+					<div class="square square2"></div>
+					<div class="square square"></div>
+					<div class="square square4"></div>
+					<div class="square square5"></div>
+					<div class="square square6"></div>
+					<div class="square square0"></div>
+					<div class="square square1"></div>
+					<div class="square square2"></div>
+					<div class="square square3"></div>
+					<div class="square square4"></div>
+					<div class="square square5"></div>
+					<div class="square square6"></div>
+					<div class="square square0"></div>
+					<div class="square square1"></div>
+					<div class="square square2"></div>
+				</div>
+				<div class="row row_2" id="id_row_2">
+					<div class="square square4"></div>
+					<div class="square square5"></div>
+					<div class="square square6"></div>
+					<div class="square square3"></div>
+					<div class="square"></div>
+					<div class="square square0"></div>
+					<div class="square">s</div>
+					<div class="square square1">i</div>
+					<div class="square square2">t</div>
+					<div class="square square3">e</div>
+					<div class="square square4"></div>
+					<div class="square square5"></div>
+					<div class="square square6"></div>
+					<div class="square square0"></div>
+					<div class="square square1"></div>
+					<div class="square square2"></div>
+				</div>
+				<div class="row row_3" id="id_row_3">
+					<div class="square square3"></div>
+					<div class="square square4"></div>
+					<div class="square square5"></div>
+					<div class="square"></div>
+					<div class="square square6">h</div>
+					<div class="square square0">t</div>
+					<div class="square square1">m</div>
+					<div class="square square2">l</div>
+					<div class="square square3">-</div>
+					<div class="square square4">c</div>
+					<div class="square square5">s</div>
+					<div class="square square6">s</div>
+					<div class="square square0"></div>
+					<div class="square"></div>
+					<div class="square square1"></div>
+					<div class="square square2"></div>
+				</div>
+				<div class="row row_4" id="id_row_4">
+					<div class="square square3"></div>
+					<div class="square"></div>
+					<div class="square square4"></div>
+					<div class="square square5">n</div>
+					<div class="square square6">o</div>
+					<div class="square square0">-</div>
+					<div class="square">s</div>
+					<div class="square square1">c</div>
+					<div class="square square2">r</div>
+					<div class="square square3">i</div>
+					<div class="square square4">p</div>
+					<div class="square square5">t</div>
+					<div class="square"></div>
+					<div class="square square6"></div>
+					<div class="square square0"></div>
+					<div class="square square1"></div>
+					</div>
+				<div class="row row_5" id="id_row_5">
+					<div class="square square2"></div>
+					<div class="square square3">n</div>
+					<div class="square square4">e</div>
+					<div class="square square5">v</div>
+					<div class="square square6">e</div>
+					<div class="square square0">r</div>
+					<div class="square square1"></div>
+					<div class="square square2">e</div>
+					<div class="square square3">n</div>
+					<div class="square square4">d</div>
+					<div class="square square5">i</div>
+					<div class="square square6">n</div>
+					<div class="square square0">g</div>
+					<div class="square square1"></div>
+					<div class="square square2">
+							<div class="starin">!</div>
+						</div>
+					<div class="square"></div>
+				</div>
+				<div class="row row_6" id="id_row_6">
+					<div class="square square1"></div>
+					<div class="square square2"></div>
+					<div class="square"></div>
+					<div class="square square3"></div>
+					<div class="square square4"></div>
+					<div class="square square5"></div>
+					<div class="square square6"></div>
+					<div class="square square0"></div>
+					<div class="square"></div>
+					<div class="square square1"></div>
+					<div class="square square2"></div>
+					<div class="square square3"></div>
+					<div class="square square4"></div>
+					<div class="square square5"></div>
+					<div class="square square6"></div>
+					<div class="square square0"></div>
+				</div>
+				<div class="row row_7" id="id_row_7">
+					<div class="square square1"></div>
+					<div class="square square2"></div>
+					<div class="square square3"></div>
+					<div class="square square4"></div>
+					<div class="square square5"></div>
+					<div class="square square6"></div>
+					<div class="square square0"></div>
+					<div class="square square1"></div>
+					<div class="square square2"></div>
+					<div class="square square3"></div>
+					<div class="square square4"></div>
+					<div class="square square5"></div>
+					<div class="square square6"></div>
+					<div class="square square0"></div>
+					<div class="square square1"></div>
+					<div class="square square2"></div>
+				</div> <!-- Fin des lignes du Main -->
+			</div><!-- Fin du container du Main -->
+		</main><!-- END MAIN -->
+		<!-- START FOOTER -->
+		<footer class="footer">
+			<!-- Je crée un container flexible pour le Footer  -->
+			<div class="container container_footer" id="id_container_footer">
+				<!-- Je crée une ligne flexible pour le responsive -->
+				<div class="row_footer" id="id_row_footer">
+					<div>
+						<a clas="a" href="https://www.mathias-lacroix.fr">2019 - Mathias Lacroix</a>
+					</div>
+					<div>
+						<!-- <a clas="a" href="https://mathiaslacroix.com">Développeur</a> -->
+					</div>
+					<div>
+						<a clas="a" href="https://github.com/mathiaslacroix">Github</a>
+					</div>
+					<div>
+						<a clas="a" href="http://www.mathias-lacroix.fr/index.php/contact">Contact</a>
+					</div>
+				</div> <!-- Fin de ligne du Footer -->
+			</div><!-- Fin du container du Footer -->
+		</footer><!-- END FOOTER -->
+	</body><!-- END BODY -->
+</html>
