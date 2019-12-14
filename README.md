@@ -1,7 +1,7 @@
 # html_css_mathiaslacroix_me
 HTML et CSS sans script et en développement permanent 
 
-Juste un site d'entraînement au code
+Site d'entraînement au code
 
 ToDoList :
 - responsive paysage first
